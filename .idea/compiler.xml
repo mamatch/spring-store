@@ -13,9 +13,10 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="inventory-service" target="17" />
-      <module name="order-service" target="17" />
-      <module name="product-service" target="17" />
+      <module name="inventory-service" target="19" />
+      <module name="order-service" target="19" />
+      <module name="product-service" target="19" />
+      <module name="spring-store" target="19" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -23,6 +24,7 @@
       <module name="inventory-service" options="-parameters" />
       <module name="order-service" options="-parameters" />
       <module name="product-service" options="-parameters" />
+      <module name="spring-store" options="" />
     </option>
   </component>
 </project>
