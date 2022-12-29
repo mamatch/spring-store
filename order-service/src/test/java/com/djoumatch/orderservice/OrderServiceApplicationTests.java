@@ -68,8 +68,8 @@ class OrderServiceApplicationTests {
         List<OrderLineItemDto> orderLineItemDtoList = new ArrayList<>();
         OrderLineItemDto orderLineItemDto = new OrderLineItemDto();
         orderLineItemDto.setQuantity(5);
-        orderLineItemDto.setPrice(BigDecimal.valueOf(1500));
-        orderLineItemDto.setSkuCode("mdrrrrr");
+        orderLineItemDto.setPrice(BigDecimal.valueOf(150));
+        orderLineItemDto.setSkuCode("i13");
         orderLineItemDtoList.add(orderLineItemDto);
         orderRequest.setOrderLineItemDtoList(orderLineItemDtoList);
 
